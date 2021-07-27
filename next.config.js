@@ -10,10 +10,6 @@ module.exports = withCommerceConfig({
     locales: ['en-US', 'es'],
     defaultLocale: 'en-US',
   },
-  images: {
-    "domains": [
-     "cdn11.bigcommerce.com"
-  ]},
   rewrites() {
     return [
       {
